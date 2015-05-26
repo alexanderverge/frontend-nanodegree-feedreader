@@ -3,6 +3,25 @@ Project 6 in the Udacity Front End Web Developer Nanodegree
 
 Check it out here: http://alexanderverge.github.io/frontend-nanodegree-feedreader
 
+## How To Run This Web App
+1. Click [here](http://alexanderverge.github.io/frontend-nanodegree-feedreader) to visit the web app
+2. Click the hamburger icon to see the different feeds available
+3. Click on an atricle to check it out!
+4. (Check out the Jasmine tests at the bottom of the page -- Yay for no failures!)
+
+## What Tests Are Being Run?
+* RSS Feeds
+    * are defined
+    * have valid URLs
+    * have valid names
+* The Menu
+    * is hidden by default
+    * changes visibility when clicked
+* Initial Entries
+    * have at least a single entry
+* New Feed Selection
+    * changes content
+
 # Project Overview
 
 In this project you are given a web-based application that reads RSS feeds. The original developer of this application clearly saw the value in testing, they've already included [Jasmine](http://jasmine.github.io/) and even started writing their first test suite! Unfortunately, they decided to move on to start their own company and we're now left with an application with an incomplete test suite. That's where you come in.
